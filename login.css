@@ -1,0 +1,54 @@
+.login{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+    padding: 0;
+    background: linear-gradient(150deg, rgba(21,0,210,1) 0%, rgba(102,0,210,1) 11%, rgba(26,18,189,1) 22%, rgba(0,122,241,1) 33%, rgba(0,183,252,1) 44%, rgba(0,183,252,1) 55%, rgba(0,122,241,1) 66%, rgba(26,18,189,1) 77%, rgba(102,0,210,1) 88%, rgba(235,0,255,1) 100%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+
+.card{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+    width: 400px;
+    height: 450px;
+    border-radius: 25px;
+    background-color: rgba(0, 123, 255, 0.75);
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+}
+
+.login-txt{
+    color: #fff;
+    font-weight: 800;
+}
+
+.login-input{
+    font-size: 14px;
+    border-radius: 6px;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    height: 36px;
+    width: 200px;
+    margin: 0 auto 0 auto;
+}
+
+.login-input:hover {
+    border-color: #ccc;
+}
+.login-button{
+    width: 125px;
+    margin-top: 15px;
+  font-weight: 800;
+  color: #fff;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+  margin: 0 auto 0 auto;
+}
+
